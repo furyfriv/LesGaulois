@@ -7,6 +7,7 @@ public class TestGaulois {
 	public static void main(String[] args) {
 		Gaulois asterixGaulois = new Gaulois("Astèrix", 8);
 		Gaulois obelixGaulois = new Gaulois("Obelix", 16);
+		Gaulois abraracourixGaulois = new Gaulois("Abraracourix", 6);
 		asterixGaulois.parler("Je ne bosse pas assez");
 		obelixGaulois.parler("Bonjour Astèrix. Ca te dirais d'aller chasser des sangliers ?");
 		asterixGaulois.parler("Oui très bonne idée.");
